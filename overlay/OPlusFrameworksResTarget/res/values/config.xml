@@ -501,4 +501,14 @@
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode">/sys/kernel/oplus_display/dimlayer_bl_en</string>
 
+    <!-- The list of packages to automatically opt out of refresh rates higher than 60hz because
+         of known compatibility issues. -->
+    <string-array name="config_highRefreshRateBlacklist">
+        <item>"com.netflix.mediaclient"</item>
+        <item>"com.google.android.youtube"</item>
+        <item>"com.google.android.apps.youtube.music"</item>
+        <item>"com.vanced.android.youtube"</item>
+        <item>"com.vanced.android.apps.youtube.music"</item>
+        <item>"com.zhiliaoapp.musically"</item>
+    </string-array>
 </resources>
