@@ -249,6 +249,7 @@ PRODUCT_PACKAGES += \
     init.nfc.rc \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
+    init.kona.post_boot.sh \
     init.oplus.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
