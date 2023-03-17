@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from RMX3371_11_C.04.
+## from RMX3371_11_C.05.
 
 # ACDBs
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -428,11 +428,11 @@ odm/lib64/camera/com.qti.sensor.ov64b.so
 odm/lib64/camera/com.qti.sensormodule.qtech_ov64b.bin
 odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
 odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471_21732.bin
 odm/lib64/camera/com.qti.tuned.sm8250_qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_21732.bin
 
 # CDSP
 vendor/bin/cdsprpcd
