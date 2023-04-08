@@ -1657,6 +1657,7 @@ odm/lib64/android.hardware.secure_element@1.0-impl.so|c1729c7536ec451d080a097949
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
 odm/bin/oplus_sensor_fb
+odm/bin/sensor_recover.sh
 odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
 odm/etc/sensor/config/kona_qrd_ak991x_0.json
 odm/etc/sensor/config/kona_qrd_alsps.json
