@@ -15,4 +15,5 @@
     <dimen name="keyguard_indication_margin_bottom">3dp</dimen>
 
     <bool name="flag_combined_qs_headers">false</bool>
+
 </resources>
