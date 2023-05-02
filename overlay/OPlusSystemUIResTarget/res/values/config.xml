@@ -9,7 +9,7 @@
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">109</integer>
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
 
     <!-- Margin on the bottom of the charging indicator on Keyguard -->
     <dimen name="keyguard_indication_margin_bottom">3dp</dimen>

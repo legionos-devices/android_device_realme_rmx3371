@@ -509,9 +509,9 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>545</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2200</item> <!-- <item>sensorLocationY</item> -->
-        <item>104</item>   <!-- <item>sensorRadius</item> -->
+        <item>546</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2228</item> <!-- <item>sensorLocationY</item> -->
+        <item>94</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
     <!-- Whether devices suports in-display fingerprint when screen is off -->
