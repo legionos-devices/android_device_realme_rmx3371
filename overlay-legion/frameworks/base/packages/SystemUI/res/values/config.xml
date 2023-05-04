@@ -8,6 +8,9 @@
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#ffffe6</color>
 
+    <!-- AlternateFastChargeInfoUpdate -->
+    <bool name="config_alternateFastchargeInfoUpdate">true</bool>
+
     <!-- HBM type of UDFPS overlay.
             0 - GLOBAL HBM
             1 - LOCAL HBM
