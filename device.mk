@@ -350,6 +350,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Power
 $(call inherit-product, hardware/oplus/aidl/power-libperfmgr/power_product.mk)
 
+# Powerhint
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
