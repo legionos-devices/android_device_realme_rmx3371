@@ -16,5 +16,5 @@
             1 - LOCAL HBM
     -->
     <integer name="config_udfpsHbmType">0</integer>
-
+    <bool name="config_pulseOnFingerDown">true</bool>
 </resources>
