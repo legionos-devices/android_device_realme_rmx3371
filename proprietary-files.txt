@@ -1026,14 +1026,9 @@ vendor/lib64/libswvdec.so
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
-
 # Perf
 odm/lib64/vendor.oplus.hardware.performance@1.0.so
+vendor/etc/smomo_setting.xml
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1056,6 +1051,12 @@ vendor/lib64/libperfioctl.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
+
+# Peripheral
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib64/libperipheral_client.so
+vendor/lib64/libspcom.so
 
 # Power-off alarm
 product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
