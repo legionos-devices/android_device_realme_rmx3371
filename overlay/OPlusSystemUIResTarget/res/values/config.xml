@@ -13,7 +13,7 @@
     <integer name="config_udfps_vendor_code">0</integer>
 
     <!-- Margin on the bottom of the charging indicator on Keyguard -->
-    <dimen name="keyguard_indication_margin_bottom">3dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom">102dp</dimen>
 
     <bool name="flag_combined_qs_headers">false</bool>
 
