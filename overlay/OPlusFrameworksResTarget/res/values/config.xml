@@ -509,6 +509,8 @@
         <item>"com.google.android.apps.youtube.music"</item>
         <item>"com.vanced.android.youtube"</item>
         <item>"com.vanced.android.apps.youtube.music"</item>
+	<item>"app.revanced.android.youtube"</item>
+	<item>"app.rvx.android.apps.youtube.music"</item>
         <item>"com.zhiliaoapp.musically"</item>
     </string-array>
 </resources>
