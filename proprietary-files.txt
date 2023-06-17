@@ -1026,15 +1026,16 @@ vendor/lib64/libswvdec.so
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 
-# Perf
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
-vendor/etc/smomo_setting.xml
-
 # Peripheral
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
+
+# Perf
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
+vendor/etc/smomo_setting.xml
+vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
 # Power-off alarm
 product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
