@@ -8,6 +8,8 @@
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # A/B
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
@@ -17,12 +19,16 @@ AB_OTA_POSTINSTALL_CONFIG += \
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_vendor=true \
     POSTINSTALL_PATH_vendor=bin/checkpoint_gc \
-    FILESYSTEM_TYPE_vendor=erofs \
+    FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
 
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+
+# AAPT
+ PRODUCT_AAPT_CONFIG := normal
+ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # ANT+
 PRODUCT_PACKAGES += \
@@ -90,6 +96,10 @@ PRODUCT_COPY_FILES += \
 # Board API level
 BOARD_SHIPPING_API_LEVEL := 30
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
@@ -117,6 +127,11 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 # Device ID attestation
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
+
+# Device Init
+PRODUCT_PACKAGES += \
+     fstab.qcom \
+     fstab.qcom.ramdisk
 
 # Display
 PRODUCT_PACKAGES += \
@@ -282,6 +297,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
+# Shipping API
+ PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
@@ -382,4 +400,4 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/realme/rmx3371/rmx3371-vendor.mk)

@@ -26,7 +26,7 @@ from extract_utils.utils import (
 )
 
 namespace_imports = [
-    'device/oneplus/sm8250-common',
+    'device/realme/rmx3371',
     'hardware/oplus',
     'hardware/qcom-caf/sm8250',
     'hardware/qcom-caf/wlan',
@@ -135,8 +135,8 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'sm8250-common',
-    'oneplus',
+    'rmx3371',
+    'realme',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
