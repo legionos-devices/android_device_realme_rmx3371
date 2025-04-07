@@ -13,6 +13,10 @@ $(call inherit-product, device/realme/rmx3371/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Evo stuff
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_rmx3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
