@@ -116,6 +116,8 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'com.oem.autotest', b'\x00om.oem.autotest'),
     ('vendor/lib64/libextcamera_client.so', 'vendor/lib/libextcamera_client.so'): blob_fixup()
         .replace_needed('libgui1_vendor.so', 'libgui_vendor.so'),
+    'vendor/lib64/hw/camera.qcom.so': blob_fixup()
+         .add_needed('libcamera_metadata_shim.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .call(blob_fixup_nop_call, 'bl', '__cfi_check', '_ZN7android8hardware22configureRpcThreadpoolEmb@plt'),
 }  # fmt: skip
