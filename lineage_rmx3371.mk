@@ -16,6 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Evo stuff
 PRODUCT_NO_CAMERA := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_rmx3371
 PRODUCT_MANUFACTURER := realme
