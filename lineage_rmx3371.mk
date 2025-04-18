@@ -14,7 +14,7 @@ $(call inherit-product, device/realme/rmx3371/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Evo stuff
-TARGET_BUILD_APERTURE_CAMERA := false
+PRODUCT_NO_CAMERA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_rmx3371
