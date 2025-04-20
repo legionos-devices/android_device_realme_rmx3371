@@ -1452,10 +1452,8 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
-# Perf - from c05
-odm/lib64/vendor.oplus.hardware.performance@1.0.so|b5ff1b8a6da96123fa5052c0ea4f3c8c77db3d50
-
 # Perf
+odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
