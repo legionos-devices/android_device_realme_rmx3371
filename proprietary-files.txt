@@ -1091,13 +1091,6 @@ vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# ESE  - from c08
-odm/bin/hw/vendor.qti.esepowermanager@1.1-service|07baf42501273bbe825738dcfb57562adc81677c
-odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc|411babc69fec1fa479079039120b619554e01145
-odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|7b67b47030f00af1c2e207995eea05f05fb91b23
-odm/lib64/vendor.qti.esepowermanager@1.0.so|220f1df044b7922e14e1360a75c145adf204c303
-odm/lib64/vendor.qti.esepowermanager@1.1.so|07269ab6a63720f75a30e5cb716152a823fb3323
-
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
@@ -1646,11 +1639,6 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
-
-# Secure element - from c08
-odm/bin/hw/vendor.qti.secure_element@1.2-service|a71193d9c14942119a0d46c35d0f4151c78526a8
-odm/etc/init/vendor.qti.secure_element@1.2-service.rc|14f20ae397ecfacfca121ce4f06c2e2012cd99e8
-odm/lib64/android.hardware.secure_element@1.0-impl.so|c1729c7536ec451d080a097949148bae876bb8c2
 
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
