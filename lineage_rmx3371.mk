@@ -14,6 +14,8 @@ $(call inherit-product, device/realme/rmx3371/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Evo stuff
+PRODUCT_DEFAULT_DEV_CERTIFICATE=vendor/evolution-priv/keys/releasekey
+EVO_BUILD_TYPE=CustomEdition
 PRODUCT_NO_CAMERA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
